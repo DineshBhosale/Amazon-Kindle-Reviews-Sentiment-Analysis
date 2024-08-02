@@ -15,7 +15,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 '''
 PROJECT FLOW
-1. FEATURE ENGINEERING (Text Cleaning; Stop Words Removal; Remove URL's, HTML; LEMMATIZATION)
+1. FEATURE ENGINEERING (Text Cleaning; Stop Words Removal; Remove URL's, HTML; Lemmatization)
 2. TRAIN TEST SPLIT
 3. CONVERT TEXT TO VECTORS USING BAG OF WORDS/TF-IDF/WORD2VEC
 4. TRAIN MODELS
