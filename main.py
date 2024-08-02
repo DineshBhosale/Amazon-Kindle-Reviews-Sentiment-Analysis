@@ -109,7 +109,7 @@ print(X_train_df.shape)
 print(X_train_df.isnull().sum())
 
 '''
-MODEL TRAINING AND PREDICTING
+MODEL TRAINING AND PREDICTIONS WITH ACCURACY, CONFUSION MATRIX
 '''
 
 classifier = RandomForestClassifier()
