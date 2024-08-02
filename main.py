@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 from nltk import WordNetLemmatizer
-from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 pd.options.mode.chained_assignment = None  # default='warn'
