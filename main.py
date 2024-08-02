@@ -49,7 +49,7 @@ print(data['rating'].unique())
 print(data['rating'].value_counts())
 
 '''
-FEATURE ENGINEERING (Text Cleaning; Stop Words Removal; Remove URL's, HTML; LEMMATIZATION)
+FEATURE ENGINEERING (Text Cleaning; Stop Words Removal; Remove URL's, HTML; Lemmatization)
 '''
 # ratings below 3 are 0, else 1
 data["rating"] = data["rating"].apply(lambda x: "positive" if x > 3 else ("neutral" if x == 3 else "negative"))
